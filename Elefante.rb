@@ -31,3 +31,50 @@ while contadorElefante <= 100
 end
 
 end
+
+
+
+#Velha surda
+
+puts (AN, FALA MAIS ALTO)
+resp = gets.chomp
+tchau = 1
+
+while resp != "TCHAU"
+while resp != resp.upcase
+  puts ("ANN, FALA MAIS ALTO")
+  resp = gets.chomp
+  end
+  
+while resp == resp.upcase and resp != ("TCHAU")
+ anorand = 1930 + rand(20)
+  puts ("NÃO, NÃO, DESDE, #{anorand}")
+  resp = gets.chomp
+
+end
+
+end
+
+if resp == "TCHAU" and tchau != 2
+  
+  puts("AN, AN, NAO ENTENDI")
+  
+tchau = tchau + 1
+  resp = gets.chomp
+  
+
+else
+  
+  puts (ATAA, ENTENDI)
+  end
+  
+
+
+
+end
+
+  
+  
+  
+    
+
